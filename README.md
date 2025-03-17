@@ -1,5 +1,5 @@
-### INTRODUCTION
-this repository holds a variety of free portfolio projects built mainly in python on different topics. You can find projects showcasing data analysis, machine learning and data science  content. Following is a breakdown of each project:
+### Introduction
+This repository holds a variety of free portfolio projects built mainly in python on different topics. You can find projects showcasing data analysis, machine learning and data science  content. Following is a breakdown of each project:
 
 #### Click Ads Prediction
 This project, built in python, combines, data cleaning, exploration, feature engineering, machine learning, deep learning (transformers) to build a model capable of predicting the probability of a user's click on a given Ad.
@@ -20,8 +20,4 @@ This is a simple Q&A project containing queries that answer questions on the dat
 This is a simple web scraper built in python that can extract an item and its price, store it in a csv file to form a dataset. From there, we can also monitor for price changes and send an email whenever the price reached a certain target.  
 
 
-
-
-
-
-Let's break it down for Feel free to navigate through  and use them as much as you like !!!
+Feel free to navigate through and use them as much as you like !!!
