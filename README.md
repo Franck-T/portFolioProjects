@@ -1,4 +1,4 @@
-### Introduction
+
 This repository holds a variety of free portfolio projects built mainly in python on different topics. You can find projects showcasing data analysis, machine learning and data science  content. Following is a breakdown of each project:
 
 #### Click Ads Prediction
