@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS nobel_win(
 -- loading the data
 
 -- in the salesman table
-LOAD DATA LOCAL INFILE 'D:\\Utilisateurs\\Aubery\\Downloads\\Python and SQL Quiz\\Python and SQL Quiz\\salesman.csv'  
+LOAD DATA LOCAL INFILE 'Replace with full path to \\salesman.csv'  
 INTO TABLE salesman
 FIELDS TERMINATED BY ',' ENCLOSED BY ''
 LINES TERMINATED BY '\n'
@@ -68,7 +68,7 @@ IGNORE 1 LINES
 (salesman_id,name,city,commission);
 
 -- in the customer table
-LOAD DATA LOCAL INFILE 'D:\\Utilisateurs\\Aubery\\Downloads\\Python and SQL Quiz\\Python and SQL Quiz\\customer.csv' 
+LOAD DATA LOCAL INFILE 'Replace with full path to \\customer.csv' 
 INTO TABLE customer
 FIELDS TERMINATED BY ',' ENCLOSED BY ''
 LINES TERMINATED BY '\n'
@@ -78,7 +78,7 @@ IGNORE 1 LINES
 
 
 -- in the orders table
-LOAD DATA LOCAL INFILE 'D:\\Utilisateurs\\Aubery\\Downloads\\Python and SQL Quiz\\Python and SQL Quiz\\orders.csv'  
+LOAD DATA LOCAL INFILE 'Replace with full path to \\orders.csv'  
 INTO TABLE orders
 FIELDS TERMINATED BY ',' ENCLOSED BY ''
 LINES TERMINATED BY '\n'
@@ -86,7 +86,7 @@ IGNORE 1 LINES
 (ord_no,purch_amt,ord_date,customer_id,salesman_id);
 
 -- in the nobel_win table
-LOAD DATA LOCAL INFILE 'D:\\Utilisateurs\\Aubery\\Downloads\\Python and SQL Quiz\\Python and SQL Quiz\\nobel_win.csv'  
+LOAD DATA LOCAL INFILE 'Replace with full path to \\nobel_win.csv'  
 INTO TABLE nobel_win
 FIELDS TERMINATED BY ',' ENCLOSED BY ''
 LINES TERMINATED BY '\n'
